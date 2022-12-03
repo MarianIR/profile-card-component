@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  background-color: hsl(185deg, 75%, 39%);
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-repeat: no-repeat;
+}
+
+.main-section {
+  width: 90%;
+  max-width: 35rem;
+  margin: 5rem auto;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.main-section .pattern-card {
+  width: 100%;
+  height: 40%;
+  border-radius: 1rem 1rem 0 0;
+}
+.main-section .victors-portret {
+  width: 50%;
+  max-width: 10rem;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  margin: -5rem auto 0;
+  outline: 0.4rem solid #fff;
+}
+.main-section .about-victor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 2rem auto;
+}
+.main-section .about-victor .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 2rem;
+  border-bottom: 0.1rem solid lightgray;
+}
+.main-section .about-victor .about .name {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: hsl(229deg, 23%, 23%);
+}
+.main-section .about-victor .about .name .age {
+  padding: 0 0.5rem;
+  color: hsl(0deg, 0%, 59%);
+}
+.main-section .about-victor .about .city {
+  font-size: 1.3rem;
+  color: hsl(0deg, 0%, 59%);
+  margin-bottom: 2rem;
+}
+.main-section .about-victor .statistics {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.main-section .about-victor .statistics .followers,
+.main-section .about-victor .statistics .likes,
+.main-section .about-victor .statistics .photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-section .about-victor .statistics .followers .number,
+.main-section .about-victor .statistics .likes .number,
+.main-section .about-victor .statistics .photos .number {
+  font-size: 1.8rem;
+  color: hsl(227deg, 10%, 46%);
+  font-weight: bold;
+}
+.main-section .about-victor .statistics .followers .category,
+.main-section .about-victor .statistics .likes .category,
+.main-section .about-victor .statistics .photos .category {
+  letter-spacing: 0.2rem;
+  color: hsl(0deg, 0%, 59%);
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.8rem;
+  color: hsl(229deg, 23%, 23%);
+}
+.attribution a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
